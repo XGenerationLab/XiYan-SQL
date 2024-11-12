@@ -1,1 +1,1 @@
-# XiYan-SQL: XiYan-SQL: A Multi-Generator Ensemble Framework for Natural Language to SQL
+# XiYan-SQL: A Multi-Generator Ensemble Framework for Natural Language to SQL
