@@ -2,6 +2,14 @@
   <img src="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql.png?raw=true" alt="image" width="400"/>
 </p>
 
+<div align="center">
+  
+[🤗 析言GBI](https://huggingface.co) | 
+[💻 M-Schema](https://github.com/XGenerationLab/M-Schema) | 
+[📖 Arxiv]([https://yourdocumentation.com](https://arxiv.org/abs/2411.08599)
+
+</div>
+
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
 ## Introduction
