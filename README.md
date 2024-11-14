@@ -1,5 +1,8 @@
+![加载中](https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql.png?raw=true)
+
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
+## Introduction
 To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
 We introduce M-Schema, a semi-structured schema representation method designed to enhance the understanding of database structures.
 To enhance the quality and diversity of generated candidate SQL queries, XiYan-SQL integrates the significant potential of in-context learning (ICL) with the precise control of supervised fine-tuning.
