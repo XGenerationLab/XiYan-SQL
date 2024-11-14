@@ -1,4 +1,4 @@
-
+![加载中](https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql.png?raw=true)
 
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
