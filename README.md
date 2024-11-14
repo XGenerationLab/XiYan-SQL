@@ -1,7 +1,5 @@
-![加载中](https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql.png?raw=true)
-
 <p align="center">
-  <img src="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql.png?raw=true" alt="image" width="300"/>
+  <img src="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql.png?raw=true" alt="image" width="400"/>
 </p>
 
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
