@@ -1,6 +1,11 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyanGBI.png" alt="image" />
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyansql.png" alt="image" width="500"/>
 </p>
+
 
 <div align="center">
   
