@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql.png?raw=true" alt="image" width="400"/>
+  <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyansql.png" alt="image"/>
 </p>
 
 <div align="center">
   
-[🤗 析言GBI](https://huggingface.co) | 
+[🤗 析言GBI](https://bailian.console.aliyun.com/xiyan) | 
 [💻 M-Schema](https://github.com/XGenerationLab/M-Schema) | 
-[📖 Arxiv]([https://yourdocumentation.com](https://arxiv.org/abs/2411.08599)
+[📖 Arxiv](https://arxiv.org/abs/2411.08599)
 
 </div>
 
