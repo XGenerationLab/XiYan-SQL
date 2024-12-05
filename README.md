@@ -31,9 +31,10 @@ Overall, our proposed XiYan-SQL achieves the state-of-the-art execution accuracy
 The proposed framework not only enhances the quality and diversity of SQL queries but also outperforms previous methods.
 
 ## Coming Soon
-1. <span style="background-color: blue;">Dec. 2024</span> The complete code for XiYan-SQL will be released.
-2. The fine-tuned model for SQLite will be released.
-3. A method and corresponding code for automatic description generation for NL2SQL will be provided.
+<span style="background-color: blue;">Dec. 2024</span>
+2. The complete code for XiYan-SQL will be released.
+3. The fine-tuned model for SQLite will be released.
+4. A method and corresponding code for automatic description generation for NL2SQL will be provided.
 
 ## Citation
 If you find our work helpful, feel free to give us a cite.
