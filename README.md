@@ -30,10 +30,10 @@ The experimental results on multiple dialect datasets demonstrate the robustness
 Overall, our proposed XiYan-SQL achieves the state-of-the-art execution accuracy of 89.65\% on the Spider test set, 69.86\% on SQL-Eval, 41.20\% on NL2GQL, and a competitive score of 72.23\% on the Bird development benchmark.
 The proposed framework not only enhances the quality and diversity of SQL queries but also outperforms previous methods.
 
-# <span style="background-color: yellow;">Coming Soon on Dec. 2024</span>
-- The complete code for XiYan-SQL will be released.
-- The fine-tuned model for SQLite will be released.
-- A method and corresponding code for automatic description generation for NL2SQL will be provided.
+## Coming Soon
+1. <span style="background-color: blue;">Dec. 2024</span> The complete code for XiYan-SQL will be released.
+2. The fine-tuned model for SQLite will be released.
+3. A method and corresponding code for automatic description generation for NL2SQL will be provided.
 
 ## Citation
 If you find our work helpful, feel free to give us a cite.
