@@ -17,9 +17,10 @@
 </div>
 
 <div align="center">
-中文版 | 
 
+中文版 |
 [英文版](https://github.com/XGenerationLab/XiYan-SQL/blob/main/README.md)
+
 </div>
 
 # XiYan-SQL：一种多生成器集成的Text-to-SQL框架
