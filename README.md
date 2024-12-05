@@ -16,6 +16,13 @@
 
 </div>
 
+<div align="center">
+
+[中文版](https://github.com/XGenerationLab/XiYan-SQL/blob/main/README_zh.md) |
+英文版
+
+</div>
+
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
 ## Introduction
