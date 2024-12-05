@@ -16,19 +16,23 @@
 
 </div>
 
+<div align="center">
+中文版|
+[英文版](https://github.com/XGenerationLab/XiYan-SQL/blob/main/README.md)
+</div>
+
 # XiYan-SQL：一种多生成器集成的Text-to-SQL框架
 
 ## Introduction
-To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
-We introduce M-Schema, a semi-structured schema representation method designed to enhance the understanding of database structures.
-To enhance the quality and diversity of generated candidate SQL queries, XiYan-SQL integrates the significant potential of in-context learning (ICL) with the precise control of supervised fine-tuning.
-On one hand, we propose a series of training strategies to fine-tune models to generate high-quality candidates with diverse preferences.
-On the other hand, we implement the ICL approach with an example selection method based on named entity recognition to prevent overemphasis on entities.
-The refiner optimizes each candidate by correcting logical or syntactical errors.
-To address the challenge of identifying the best candidate, we fine-tune a selection model to distinguish nuances of candidate SQL queries.
-The experimental results on multiple dialect datasets demonstrate the robustness of XiYan-SQL in addressing challenges across different scenarios.
-Overall, our proposed XiYan-SQL achieves the state-of-the-art execution accuracy of 89.65\% on the Spider test set, 69.86\% on SQL-Eval, 41.20\% on NL2GQL, and a competitive score of 72.23\% on the Bird development benchmark.
-The proposed framework not only enhances the quality and diversity of SQL queries but also outperforms previous methods.
+为了应对大型语言模型在Text-to-SQL任务中的挑战，我们引入了XiYan-SQL，这是一个全新的框架，采用多生成器集成的策略来提高候选SQL的质量。
+为此，我们提出了M-Schema，一种半结构化的数据库schema表示方法，旨在增强模型对于数据库结构的理解能力。
+然后，为了提高生成的候选SQL查询的质量和多样性，XiYan-SQL结合了ICL方法的巨大潜力和SFT方法的高可控性。
+一方面，我们提出了一系列训练策略，以微调模型生成高质量且具有不同偏好的候选。
+另一方面，我们采用ICL的方法来提示LLM，并提出了一种基于命名实体识别的方法来选择ICL的样例，从而防止过度强调实体。
+Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
+为了应对识别最佳候选的挑战，我们微调了一个选择模型，用来区分候选SQL查询之间的细微差别。
+在多个方言的数据集上的实验结果表明，XiYan-SQL在不同场景中均具有鲁棒性。
+总体而言，我们提出的XiYan-SQL在Spider测试集上达到了89.65%的执行准确率，在SQL-Eval上达到了69.86%，在NL2GQL上达到了41.20%，在Bird development基准上达到了72.23%的分数。该结果是1st on spider，1st on SQL_EVAL，3rd on bird dev。该框架不仅提高了生成SQL查询的质量和多样性，端到端的效果也优于以前的方法。
 
 ## Coming Soon🕒
 <p>1. 我们将发布完整的XiYan-SQL代码。<code><strong>2024.12</strong></code></p>
