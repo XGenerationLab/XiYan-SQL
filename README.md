@@ -34,7 +34,7 @@ It contains:
 
 2. [Training Stragegy]() a LLM training strategy with tuned generation model (to release soon).
 
-3. [Ensemble Strategy]() a multi-generator ensemble strategy with selection model, (to release soon).
+3. [Ensemble Strategy]() a multi-generator ensemble strategy with selection model (to release soon).
 
 4. [DateResolver]() a date understanding and reasoning enhanced model, major for Chinese (to release soon).
 
