@@ -30,15 +30,15 @@ XiYan-SQL is an innovative framework for LLM based Text-to-SQL.
 
 It contains:
 
-+ [M-schema](https://github.com/XGenerationLab/M-Schema): a semi-structured schema representation method.
+1. [M-schema](https://github.com/XGenerationLab/M-Schema) a semi-structured schema representation method.
 
-+ [Training Stragegy]: a LLM training strategy with tuned generation model (to release soon).
+2. [Training Stragegy]() a LLM training strategy with tuned generation model (to release soon).
 
-- [Ensemble Strategy]: a multi-generator ensemble strategy with selection model, (to release soon).
+3. [Ensemble Strategy]() a multi-generator ensemble strategy with selection model, (to release soon).
 
-- [DateResolver]: a date understanding and reasoning enhanced model, major for Chinese (to release soon).
+4. [DateResolver]() a date understanding and reasoning enhanced model, major for Chinese (to release soon).
 
-- [MOMQ]: a multi-dialects Text-to-SQL MoE model based on Qwen (to release soon).
+5. [MOMQ]() a multi-dialects Text-to-SQL MoE model based on Qwen (to release soon).
 
 ## Full Intro.
 To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
