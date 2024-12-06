@@ -64,7 +64,7 @@ The proposed framework not only enhances the quality and diversity of SQL querie
 
 <p>4. The code and model of DateSolver will be released.<code><strong>Dec. 2024</strong></code></p>
 
-<p>5. The MOMQ model and training code will be released.<code><strong>Jan. 2025</strong></code></p>
+<p>5. The MoMQ model and training code will be released.<code><strong>Jan. 2025</strong></code></p>
 
 ## Timeline
 The major events.
