@@ -73,9 +73,9 @@ The major events.
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2024-05  | Proposing M-schema, involving ICL in SQL generation, achieving 86.98% on Spider test set (SOTA 86.6%)                                                             |
 | 2024-09  | Proposing DateSolver                                                                                                                                              |
-| 2024-10  | Proposing a MoE model MOMQ                                                                                                                                       |
-| 2024-11  | Proposing Training Strategy and Ensemble Strategy: achieving 89.65% on Spider test set ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider)),      |
-|          | 69.86% on SQL-Eval ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1)),                                                                        |
+| 2024-10  | Proposing a MoE model MoMQ                                                                                                                                       |
+| 2024-11  | Proposing Training Strategy and Ensemble Strategy      |
+|          | Achieving 89.65% on Spider test set ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider)), 69.86% on SQL-Eval ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1)),                                                                        |
 |          | 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))          |
 
 
