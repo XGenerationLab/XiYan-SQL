@@ -80,8 +80,11 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 ## 应用
 欢迎大家体验基于XiYan-SQL打造的智能问数解决方案——析言GBI。
 登录阿里云百炼-应用广场-析言GBI，任何产品体验及效果优化建议欢迎与我们交流。
+
 产品介绍请访问：https://help.aliyun.com/zh/model-studio/user-guide/brief-introduction-of-gbi-products
+
 体验产品请访问：https://bailian.console.aliyun.com/xiyan
+
 产品钉群：94725009401
 
 ## 引用
