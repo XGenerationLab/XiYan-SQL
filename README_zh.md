@@ -34,7 +34,7 @@ XiYan-SQL包含以下内容：
 
 2. [训练策略](https://github.com/XGenerationLab/XiYan-SQLite) 针对SQLite的LLM训练策略和微调模型（即将发布）。
 
-3. [即成策略](https://github.com/XGenerationLab/XiYan-Selection) 一个具有选择模型的多生成器集成策略（即将发布）。
+3. [集成策略](https://github.com/XGenerationLab/XiYan-Selection) 一个具有选择模型的多生成器集成策略（即将发布）。
 
 4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) 一个增强日期理解和推理的模型，主要针对中文（即将发布）。
 
