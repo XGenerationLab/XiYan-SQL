@@ -36,11 +36,11 @@ It contains:
 
 3. [Ensemble Strategy](https://github.com/XGenerationLab/XiYan-Selection) a multi-generator ensemble strategy with selection model (to release soon).
 
-4. [DateResolver]([https://github.com/XGenerationLab/DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)) a date understanding and reasoning enhanced model, major for Chinese (to release soon).
+4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) a date understanding and reasoning enhanced model, major for Chinese (to release soon).
 
 5. [MOMQ](https://github.com/XGenerationLab/MoMQ) a multi-dialects Text-to-SQL MoE model based on Qwen (to release soon).
 
-6. [Database Description Generation]([https://github.com/XGenerationLab/DBDescGen](https://github.com/XGenerationLab/XiYan-DBDescGen)) a method and corresponding code for automatic description generation for Text-to-SQL (to release soon).
+6. [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen) a method and corresponding code for automatic description generation for Text-to-SQL (to release soon).
 
 ## Full Intro.
 To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
@@ -76,7 +76,7 @@ The major events.
 | 2024-10  | Proposing a MoE model MoMQ                                                                                                                                       |
 | 2024-11  | Proposing Training Strategy and Ensemble Strategy      |
 |          | Achieving 89.65% on Spider test set ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider)), 69.86% on SQL-Eval ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1)),                                                                        |
-|          | 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))          |
+|          | Achieving 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))          |
 
 
 
