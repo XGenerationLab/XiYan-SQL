@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyansql.png" alt="image" width="500"/>
+  <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyansql.png" alt="image" width="400"/>
 </p>
 
 
@@ -42,6 +42,23 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 <p>2. 我们将发布微调的SQLite模型。<code><strong>2024.12</strong></code></p>
 
 <p>3. 我们将提供一种用于NL2SQL的自动生成数据库描述的方法和对应的代码。<code><strong>2024.12</strong></code></p>
+
+<p>4. 我们将发布DateSolver的模型和代码。<code><strong>Dec. 2024</strong></code></p>
+
+<p>5. 我们将发布MoMQ的模型和训练代码<code><strong>Jan. 2025</strong></code></p>
+
+## 时间线
+主要事件：
+
+| 日期    | 事件   |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2024-05  | 提出M-schema，在SQL生成中引入ICL   |
+|          | 在Spider test上达到86.98% (SOTA 86.6%) |
+| 2024-09  | 提出DateSolver                      |
+| 2024-10  | 提出一个MoE模型MoMQ   |
+| 2024-11  | 提出了新的训练和集成方法 |
+|          | 在Spider test上达到89.65%([新的SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider))，在SQL-Eval上达到69.86% ([新的SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1))                                                                     |
+|          | 在NL2GQL上达到41.20%，Bird dev上达到72.23% ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))         |
 
 ## 引用
 如果您觉得我们的工作对您有帮助，欢迎引用。
