@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyansql.png" alt="image" width="500"/>
+  <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyansql.png" alt="image" width="400"/>
 </p>
 
 
@@ -25,7 +25,18 @@
 
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
-## Introduction
+## Introduction in Short
+XiYan-SQL is an innovative framework for LLM based Text-to-SQL. 
+It contains:
+
+(1) [M-schema](https://github.com/XGenerationLab/M-Schema) a semi-structured schema representation method.
+(2) [Training Stragegy] a LLM training strategy with tuned generation model (to release soon).
+(3) [Ensemble Strategy] a multi-generator ensemble strategy with selection model, (to release soon).
+
+(4) [DateResolver] a date understanding and reasoning enhanced model, major for Chinese (to release soon).
+(5) [MOMQ] a multi-dialects Text-to-SQL MoE model based on Qwen (to release soon).
+
+## Full Intro.
 To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
 We introduce M-Schema, a semi-structured schema representation method designed to enhance the understanding of database structures.
 To enhance the quality and diversity of generated candidate SQL queries, XiYan-SQL integrates the significant potential of in-context learning (ICL) with the precise control of supervised fine-tuning.
@@ -37,12 +48,28 @@ The experimental results on multiple dialect datasets demonstrate the robustness
 Overall, our proposed XiYan-SQL achieves the state-of-the-art execution accuracy of 89.65\% on the Spider test set, 69.86\% on SQL-Eval, 41.20\% on NL2GQL, and a competitive score of 72.23\% on the Bird development benchmark.
 The proposed framework not only enhances the quality and diversity of SQL queries but also outperforms previous methods.
 
+
 ## Coming Soon🕒
 <p>1. The complete code for XiYan-SQL will be released.<code><strong>Dec. 2024</strong></code></p>
 
 <p>2. The fine-tuned model for SQLite will be released.<code><strong>Dec. 2024</strong></code></p>
 
 <p>3. A method and corresponding code for automatic description generation for NL2SQL will be provided.<code><strong>Dec. 2024</strong></code></p>
+
+<p>4. The code and model of DateSolver will be released.<code><strong>Dec. 2024</strong></code></p>
+
+<p>5. The MOMQ model and training code will be released.<code><strong>Dec. 2024</strong></code></p>
+
+## Timeline
+The major events.
+
+|Date|Event|
+|-----|-----|
+|2024-05|Proposing M-schema, involving ICL in SQL generation, achieving 86.6\% on Spider test set(SOTA 87%) |
+|2024-09|Proposing DateSolver|
+|2024-10|Proposing a MoE model MOMQ|
+|2024-11|Proposing Training Stragegy and Ensemble Strategy, achieving 89.65\% on Spider test set(as [new SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider)), 69.86\% on SQL-Eval(as [new SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1)), 41.20\% on NL2GQL, and a competitive score of 72.23\% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))|
+
 
 
 ## Citation
