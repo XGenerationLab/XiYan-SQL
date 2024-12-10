@@ -91,7 +91,7 @@ Product DingTalk Group: 94725009401
 
 ## Star History
 
-[![Star History Chart](https://star-history.com/svg?repos=XGenerationLab/XiYan-SQL&Date)](https://star-history.com/#XGenerationLab/XiYan-SQL&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=XGenerationLab/XiYan-SQL&Date)](https://star-history.com/#XGenerationLab/XiYan-SQL&Date)
 
 ## Citation
 If you find our work helpful, feel free to give us a cite.
