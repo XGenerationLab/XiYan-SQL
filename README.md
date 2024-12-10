@@ -88,6 +88,9 @@ To try the product, please visit: https://bailian.console.aliyun.com/xiyan
 
 Product DingTalk Group: 94725009401
 
+## Star History
+
+[![Star History Chart](https://star-history.com/#XGenerationLab/XiYan-SQL&Date)](https://star-history.com/#XGenerationLab/XiYan-SQL&Date)
 
 ## Citation
 If you find our work helpful, feel free to give us a cite.
