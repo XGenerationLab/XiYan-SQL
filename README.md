@@ -36,7 +36,7 @@ It contains:
 
 3. [Ensemble Strategy](https://github.com/XGenerationLab/XiYan-Selection) a multi-generator ensemble strategy with selection model (to release soon).
 
-4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) a date understanding and reasoning enhanced model, major for Chinese (to release soon).
+4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) a date understanding and reasoning enhanced model, major for Chinese.
 
 5. [MoMQ](https://github.com/XGenerationLab/MoMQ) a multi-dialects Text-to-SQL MoE model based on Qwen (to release soon).
 
