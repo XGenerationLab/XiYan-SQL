@@ -62,9 +62,17 @@ The proposed framework not only enhances the quality and diversity of SQL querie
 
 <p>3. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.<code><strong>Dec. 2024</strong></code></p>
 
-<p>4. The code and model of DateResolver will be released.<code><strong>Dec. 2024</strong></code></p>
+<p>/strong></code></p>
 
 <p>5. The MoMQ model and training code will be released.<code><strong>Jan. 2025</strong></code></p>
+
+1. The complete code for XiYan-SQL will be released.`Dec. 2024`
+
+2. The fine-tuned model for SQLite will be released.`Dec. 2024`
+
+3. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Dec. 2024`
+
+4. The code and model of DateResolver will be released.`Dec. 2024`
 
 5. The MoMQ model and training code will be released.`Jan. 2025`
 
