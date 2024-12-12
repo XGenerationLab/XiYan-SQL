@@ -60,7 +60,7 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 
 3. 我们将提供一种用于NL2SQL的自动生成数据库描述的方法和对应的代码。`2024-12`
 
-4. 我们将发布[DateSolver](https://github.com/XGenerationLab/XiYan-DateResolver)的模型和代码。`2024-12` `已发布`
+4. 我们将发布[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的模型和代码。`2024-12` `已发布`
 
 5. 我们将发布MoMQ的模型和训练代码。`2025-01` 
 
