@@ -42,6 +42,10 @@ XiYan-SQL包含以下内容：
 
 6. [数据库描述生成](https://github.com/XGenerationLab/XiYan-DBDescGen) 一个自动数据库描述的方法和相应代码（即将发布）。
 
+## 新闻🔥
+
++ 模型体验请访问：https://modelscope.cn/studios/sherlin/xiyansql
+
 ## 引言
 为了应对大型语言模型在Text-to-SQL任务中的挑战，我们引入了XiYan-SQL，这是一个全新的框架，采用多生成器集成的策略来提高候选SQL的质量。
 为此，我们提出了M-Schema，一种半结构化的数据库schema表示方法，旨在增强模型对于数据库结构的理解能力。
