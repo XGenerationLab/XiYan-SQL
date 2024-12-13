@@ -44,7 +44,7 @@ It contains:
 
 ## News🔥
 
-+ Try our model：https://modelscope.cn/studios/sherlin/xiyansql
++ Try our model：https://modelscope.cn/studios/sherlin/XiYan-Qwen2.5-Coder-32B-Instruct-1129
 
 ## Full Intro.
 To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
