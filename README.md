@@ -42,6 +42,10 @@ It contains:
 
 6. [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen) a method and corresponding code for automatic description generation for Text-to-SQL (to release soon).
 
+## News🔥
+
++ Try our model：https://modelscope.cn/studios/sherlin/xiyansql
+
 ## Full Intro.
 To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
 We introduce M-Schema, a semi-structured schema representation method designed to enhance the understanding of database structures.
