@@ -44,7 +44,12 @@ It contains:
 
 ## News🔥
 
-+ Try our model：[ModelScope](https://modelscope.cn/studios/sherlin/XiYan-Qwen2.5-Coder-32B-Instruct-1129)
++ `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the top of Bird leaderboard with an EX score of 75.63%, outperforming the second place by 0.84 pt.
+
++ `Dec. 13, 2024` We release the model and source code of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver).
+
++ `Dec. 12, 2024` Try our model: [ModelScope](https://modelscope.cn/studios/sherlin/XiYan-Qwen2.5-Coder-32B-Instruct-1129)
+
 
 ## Full Intro.
 To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
@@ -83,9 +88,10 @@ The major events.
 | 2024-11  | Proposing Training Strategy and Ensemble Strategy      |
 |          | Achieving 89.65% on Spider test set ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider)), 69.86% on SQL-Eval ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1))                                                                     |
 |          | Achieving 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))          |
+| 2024-12  | Reaching the top of Bird leaderboard with an EX score of 75.63% and R-VES of 71.41([new SOTA](https://bird-bench.github.io/)) |
 
 ## Application
-Welcome everyone to experience the intelligent data querying solution based on XiYan-SQL — XiYan GBI. We welcome any product experiences and suggestions for optimization.
+Welcome everyone to try the intelligent data querying solution based on XiYan-SQL, which is called XiYan GBI. We welcome any product experiences and suggestions for optimization.
 
 For product introduction, please visit: https://help.aliyun.com/zh/model-studio/user-guide/brief-introduction-of-gbi-products
 
