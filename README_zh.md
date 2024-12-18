@@ -44,7 +44,7 @@ XiYan-SQL包含以下内容：
 
 ## 新闻🔥
 
-+ `2024-12-17` 🌟[Bird榜单上新的SOTA](https://bird-bench.github.io/): XiYan-SQL以75.63%的执行准确率登上Bird榜首，领先第二名0.84pt
++ `2024-12-17` 🌟[Bird榜单上新的SOTA](https://bird-bench.github.io/): XiYan-SQL以**75.63%的**执行准确率登上**Bird榜首**，领先第二名0.84pt
 
 + `2024-12-13` 我们公开了[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的代码和模型
 
