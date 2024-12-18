@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyansql.png" alt="image" width="400"/>
+  <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/refs/heads/main/xiyansql.png" alt="image" width="400"/>
 </p>
 
 
