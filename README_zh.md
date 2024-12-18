@@ -48,7 +48,7 @@ XiYan-SQL包含以下内容：
 
 + `2024-12-13` 我们公开了[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的代码和模型
 
-+ `2024-12-12` 模型体验请访问：[ModelScope](https://modelscope.cn/studios/sherlin/XiYan-Qwen2.5-Coder-32B-Instruct-1129)
++ `2024-12-12` 模型体验请访问：[ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYan-Qwen-Instruct)
 
 ## 引言
 为了应对大型语言模型在Text-to-SQL任务中的挑战，我们引入了XiYan-SQL，这是一个全新的框架，采用多生成器集成的策略来提高候选SQL的质量。
