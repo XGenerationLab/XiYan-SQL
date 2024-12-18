@@ -44,7 +44,7 @@ It contains:
 
 ## News🔥
 
-+ `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the top of Bird leaderboard with an EX score of 75.63%, outperforming the second place by 0.84 pt.
++ `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the top of Bird leaderboard with an EX score of **75.63%**, outperforming the second place by 0.84 pt.
 
 + `Dec. 13, 2024` We release the model and source code of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver).
 
@@ -60,7 +60,7 @@ On the other hand, we implement the ICL approach with an example selection metho
 The refiner optimizes each candidate by correcting logical or syntactical errors.
 To address the challenge of identifying the best candidate, we fine-tune a selection model to distinguish nuances of candidate SQL queries.
 The experimental results on multiple dialect datasets demonstrate the robustness of XiYan-SQL in addressing challenges across different scenarios.
-Overall, our proposed XiYan-SQL achieves the state-of-the-art execution accuracy of 89.65\% on the Spider test set, 69.86\% on SQL-Eval, 41.20\% on NL2GQL, and a competitive score of 72.23\% on the Bird development benchmark.
+Overall, our proposed XiYan-SQL achieves the state-of-the-art execution accuracy of 75.63\% on Bird test, 89.65\% on the Spider test set, 69.86\% on SQL-Eval, 41.20\% on NL2GQL.
 The proposed framework not only enhances the quality and diversity of SQL queries but also outperforms previous methods.
 
 
