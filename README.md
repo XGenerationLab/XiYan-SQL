@@ -48,7 +48,7 @@ It contains:
 
 + `Dec. 13, 2024` We release the model and source code of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver).
 
-+ `Dec. 12, 2024` Try our model: [ModelScope](https://modelscope.cn/studios/sherlin/XiYan-Qwen2.5-Coder-32B-Instruct-1129)
++ `Dec. 12, 2024` Try our model: [ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYan-Qwen-Instruct)
 
 
 ## Full Intro.
