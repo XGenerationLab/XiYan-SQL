@@ -36,7 +36,7 @@ XiYan-SQL包含以下内容：
 
 3. [集成策略](https://github.com/XGenerationLab/XiYan-Selection) 一个具有选择模型的多生成器集成策略（即将发布）。
 
-4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) 一个增强日期理解和推理的模型，主要针对中文（即将发布）。
+4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) 一个增强日期理解和推理的模型，主要针对中文。
 
 5. [MoMQ](https://github.com/XGenerationLab/MoMQ) 一个基于QWen的多方言Text-to-SQL的MoE模型（即将发布）。
 
@@ -44,7 +44,7 @@ XiYan-SQL包含以下内容：
 
 ## 新闻🔥
 
-+ `2024-12-17` 🌟[Bird榜单上新的SOTA](https://bird-bench.github.io/): XiYan-SQL以75.63%的EX登顶Bird榜单，领先第二名0.84pt
++ `2024-12-17` 🌟[Bird榜单上新的SOTA](https://bird-bench.github.io/): XiYan-SQL以**75.63%**的执行准确率登上Bird**榜首**，领先第二名0.84pt
 
 + `2024-12-13` 我们公开了[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的代码和模型
 
@@ -59,7 +59,7 @@ XiYan-SQL包含以下内容：
 Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 为了应对识别最佳候选的挑战，我们微调了一个选择模型，用来区分候选SQL查询之间的细微差别。
 在多个方言的数据集上的实验结果表明，XiYan-SQL在不同场景中均具有鲁棒性。
-总体而言，我们提出的XiYan-SQL在Spider测试集上达到了89.65%的执行准确率，在SQL-Eval上达到了69.86%，在NL2GQL上达到了41.20%，在Bird development基准上达到了72.23%的分数。该结果是1st on spider，1st on SQL_EVAL，3rd on bird dev。该框架不仅提高了生成SQL查询的质量和多样性，端到端的效果也优于以前的方法。
+总体而言，我们提出的XiYan-SQL在Bird测试集上达到**75.63%**的执行准确率，Spider测试集上达到了89.65%，在SQL-Eval上达到了69.86%。该结果是**1rd on Bird test, 1st on spider，1st on SQL_EVAL**。该框架不仅提高了生成SQL查询的质量和多样性，端到端的效果也优于以前的方法。
 
 ## 即将发布，敬请期待🕒
 1. 我们将发布完整的XiYan-SQL代码。`2024-12`
