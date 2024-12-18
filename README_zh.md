@@ -44,7 +44,11 @@ XiYan-SQL包含以下内容：
 
 ## 新闻🔥
 
-+ 模型体验请访问：[ModelScope](https://modelscope.cn/studios/sherlin/XiYan-Qwen2.5-Coder-32B-Instruct-1129)
++ `2024-12-17` 🌟[Bird榜单上新的SOTA](https://bird-bench.github.io/): XiYan-SQL以75.63%的EX登顶Bird榜单，领先第二名0.84pt
+
++ `2024-12-13` 我们公开了[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的代码和模型
+
++ `2024-12-12` 模型体验请访问：[ModelScope](https://modelscope.cn/studios/sherlin/XiYan-Qwen2.5-Coder-32B-Instruct-1129)
 
 ## 引言
 为了应对大型语言模型在Text-to-SQL任务中的挑战，我们引入了XiYan-SQL，这是一个全新的框架，采用多生成器集成的策略来提高候选SQL的质量。
@@ -79,7 +83,8 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 | 2024-10  | 提出一个MoE模型MoMQ   |
 | 2024-11  | 提出了新的训练和集成方法 |
 |          | 在Spider test上达到89.65%([新的SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider))，在SQL-Eval上达到69.86% ([新的SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1))                                                                     |
-|          | 在NL2GQL上达到41.20%，Bird dev上达到72.23% ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))         |
+|          | 在NL2GQL上达到41.20%，Bird dev上达到72.23% ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))  |
+| 2024-12  | 以75.63%的EX和71.41的R-VES登顶Bird榜单([新的SOTA](https://bird-bench.github.io/))
 
 ## 应用
 欢迎大家体验基于XiYan-SQL打造的智能问数解决方案——析言GBI。
