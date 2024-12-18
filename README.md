@@ -44,7 +44,7 @@ It contains:
 
 ## News🔥
 
-+ `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the top of Bird leaderboard with an EX score of **75.63%**, outperforming the second place by 0.84 pt.
++ `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the **top** of Bird leaderboard with an EX score of **75.63%**, outperforming the second place by 0.84 pt.
 
 + `Dec. 13, 2024` We release the model and source code of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver).
 
