@@ -90,6 +90,12 @@ The major events.
 |          | Achieving 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))          |
 | 2024-12  | Reaching the top of Bird leaderboard with an EX score of 75.63% and R-VES of 71.41([new SOTA](https://bird-bench.github.io/)) |
 
+## Recruitment
+
+We're looking for summer interns, research interns, new graduates, and internal transfers!
+Please contact: Zhiling Luo, godot.lzl@alibaba-inc.com
+
+
 ## Application
 Welcome everyone to try the intelligent data querying solution based on XiYan-SQL, which is called XiYan GBI. We welcome any product experiences and suggestions for optimization.
 
