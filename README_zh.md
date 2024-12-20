@@ -86,6 +86,12 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 |          | 在NL2GQL上达到41.20%，Bird dev上达到72.23% ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))  |
 | 2024-12  | 以75.63%的EX和71.41的R-VES登顶Bird榜单([新的SOTA](https://bird-bench.github.io/))
 
+## 招聘
+
+欢迎 暑期实习/研究型实习生/正式校招/转岗
+
+有意向请联系：罗智凌, godot.lzl@alibaba-inc.com
+
 ## 应用
 欢迎大家体验基于XiYan-SQL打造的智能问数解决方案——析言GBI。
 登录阿里云百炼-应用广场-析言GBI，任何产品体验及效果优化建议欢迎与我们交流。
