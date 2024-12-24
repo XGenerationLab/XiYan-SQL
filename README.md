@@ -66,11 +66,11 @@ The proposed framework not only enhances the quality and diversity of SQL querie
 
 ## Coming Soon🕒
 
-1. The complete code for XiYan-SQL will be released.`Dec. 2024`
+1. The complete code for XiYan-SQL will be released.`Feb. 2025`
 
 2. The fine-tuned model for SQLite will be released.`Dec. 2024`
 
-3. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Dec. 2024`
+3. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Jan. 2025`
 
 4. The code and model of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) will be released. `Dec. 2024` `Done`
 
