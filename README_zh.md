@@ -62,11 +62,11 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 总体而言，我们提出的XiYan-SQL在Bird测试集上达到75.63%的执行准确率，Spider测试集上达到了89.65%，在SQL-Eval上达到了69.86%。该结果是**1st on Bird test, 1st on spider，1st on SQL_EVAL**。该框架不仅提高了生成SQL查询的质量和多样性，端到端的效果也优于以前的方法。
 
 ## 即将发布，敬请期待🕒
-1. 我们将发布完整的XiYan-SQL代码。`2024-12`
+1. 我们将发布完整的XiYan-SQL代码。`2025-02`
 
 2. 我们将发布微调的SQLite模型。`2024-12`
 
-3. 我们将提供一种用于NL2SQL的自动生成数据库描述的方法和对应的代码。`2024-12`
+3. 我们将提供一种用于NL2SQL的自动生成数据库描述的方法和对应的代码。`2025-01`
 
 4. 我们将发布[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的模型和代码。`2024-12` `已发布`
 
