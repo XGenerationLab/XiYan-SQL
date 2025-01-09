@@ -68,7 +68,7 @@ The proposed framework not only enhances the quality and diversity of SQL querie
 
 1. The complete code for XiYan-SQL will be released.`Feb. 2025`
 
-2. The fine-tuned model for SQLite will be released.`Dec. 2024`
+2. The fine-tuned model for SQLite will be released.`Jan. 2025`
 
 3. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Jan. 2025`
 
