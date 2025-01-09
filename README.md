@@ -50,7 +50,7 @@ It contains:
 
 + `Dec. 13, 2024` We release the model and source code of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver).
 
-+ `Dec. 12, 2024` Try our model: [ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYan-Qwen-Instruct)
++ `Dec. 12, 2024` Try our model: [ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
 
 
 ## Full Intro.
