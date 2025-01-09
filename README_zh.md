@@ -32,7 +32,7 @@ XiYan-SQL包含以下内容：
 
 1. [M-schema](https://github.com/XGenerationLab/M-Schema) 一种半结构化的schema表示方法。
 
-2. [训练策略](https://github.com/XGenerationLab/XiYan-SQLite) 针对SQLite的LLM训练策略和微调模型（即将发布）。
+2. [XiYanSQL-qwencoder-32B](https://github.com/XGenerationLab/XiYanSQL-qwencoder-32B) 针对SQLite的LLM训练策略和微调模型（即将发布）。
 
 3. [集成策略](https://github.com/XGenerationLab/XiYan-Selection) 一个具有选择模型的多生成器集成策略（即将发布）。
 
@@ -64,7 +64,7 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 ## 即将发布，敬请期待🕒
 1. 我们将发布完整的XiYan-SQL代码。`2025-02`
 
-2. 我们将发布微调的SQLite模型。`2024-12`
+2. 我们将发布微调的SQLite模型。`2025-01`
 
 3. 我们将提供一种用于NL2SQL的自动生成数据库描述的方法和对应的代码。`2025-01`
 
