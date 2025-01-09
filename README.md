@@ -44,6 +44,8 @@ It contains:
 
 ## News🔥
 
++ `Jan. 09, 2025` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B): XiYanSQL-QwenCoder-32B achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
+
 + `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the **top** of Bird leaderboard with an EX score of **75.63%**, outperforming the second place by 0.84 pt.
 
 + `Dec. 13, 2024` We release the model and source code of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver).
