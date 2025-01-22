@@ -32,7 +32,7 @@ It contains:
 
 1. [M-schema](https://github.com/XGenerationLab/M-Schema) a semi-structured schema representation method.
 
-2. [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B) a LLM training strategy with tuned generation model for SQLite (to release soon).
+2. [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B) a LLM training strategy with tuned generation model for SQLite.
 
 3. [Ensemble Strategy](https://github.com/XGenerationLab/XiYan-Selection) a multi-generator ensemble strategy with selection model (to release soon).
 
@@ -43,6 +43,8 @@ It contains:
 6. [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen) a method and corresponding code for automatic description generation for Text-to-SQL (to release soon).
 
 ## News🔥
+
++ `Jan. 22, 2025` 🌟We release [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B) and simultaneously open source the model weights.
 
 + `Jan. 09, 2025` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B): XiYanSQL-QwenCoder-32B achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
 
@@ -70,7 +72,7 @@ The proposed framework not only enhances the quality and diversity of SQL querie
 
 1. The complete code for XiYan-SQL will be released.`Feb. 2025`
 
-2. The fine-tuned model for SQLite will be released.`Jan. 2025`
+2. The fine-tuned model for SQLite will be released.`Jan. 2025` `Done`
 
 3. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Jan. 2025`
 
@@ -92,6 +94,7 @@ The major events.
 |          | Achieving 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))          |
 | 2024-12  | Reaching the top of Bird leaderboard with an EX score of 75.63% and R-VES of 71.41([new SOTA](https://bird-bench.github.io/))     |
 | 2025-01  | XiYanSQL-QwenCoder-32B achieves an EX score of 69.03% on BIRD test, new SOTA using only single fine-tuned model        |
+|          | XiYanSQL-QwenCoder-32B has been released    |
 
 ## Recruitment
 
