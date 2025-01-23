@@ -44,6 +44,8 @@ XiYan-SQL包含以下内容：
 
 ## 新闻🔥
 
++ `2025-01-22` 🌟我们正式发布[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B)并开源模型权重
+
 + `2025-01-09` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B): XiYanSQL-QwenCoder-32B在BIRD测试集上取得了**69.03%**的执行准确率，成为了该榜单上仅使用单个微调模型的SOTA。
 
 + `2024-12-17` 🌟[Bird榜单上新的SOTA](https://bird-bench.github.io/): XiYan-SQL以**75.63%的**执行准确率登上**Bird榜首**，领先第二名0.84pt
@@ -87,7 +89,8 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 |          | 在Spider test上达到89.65%([新的SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider))，在SQL-Eval上达到69.86% ([新的SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1))                                                                     |
 |          | 在NL2GQL上达到41.20%，Bird dev上达到72.23% ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))  |
 | 2024-12  | 以75.63%的EX和71.41的R-VES登顶Bird榜单([新的SOTA](https://bird-bench.github.io/)) |
-| 2025-01  | XiYanSQL-QwenCoder-32B在BIRD上达到了69.03%的EX，是仅使用单个微调模型的SOTA |
+| 2025-01  | XiYanSQL-QwenCoder-32B在BIRD上达到了69.03%的EX，是仅使用单个微调模型的SOTA  |
+|          | XiYanSQL-QwenCoder-32B正式发布      |
 
 ## 招聘
 
