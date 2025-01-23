@@ -46,9 +46,9 @@ XiYan-SQL包含以下内容：
 
 + `2025-01-22` 🌟我们正式发布[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B)并开源模型权重
 
-+ `2025-01-09` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B): XiYanSQL-QwenCoder-32B在BIRD测试集上取得了**69.03%**的执行准确率，成为了该榜单上仅使用单个微调模型的SOTA。
++ `2025-01-09` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B): XiYanSQL-QwenCoder-32B在BIRD测试集上取得了**69.03%** 的执行准确率，成为了该榜单上仅使用单个微调模型的SOTA。
 
-+ `2024-12-17` 🌟[Bird榜单上新的SOTA](https://bird-bench.github.io/): XiYan-SQL以**75.63%的**执行准确率登上**Bird榜首**，领先第二名0.84pt
++ `2024-12-17` 🌟[Bird榜单上新的SOTA](https://bird-bench.github.io/): XiYan-SQL以**75.63%** 的执行准确率登上**Bird榜首**，领先第二名0.84pt
 
 + `2024-12-13` 我们公开了[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的代码和模型
 
