@@ -94,7 +94,7 @@ The major events.
 |          | Achieving 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))          |
 | 2024-12  | Reaching the top of Bird leaderboard with an EX score of 75.63% and R-VES of 71.41([new SOTA](https://bird-bench.github.io/))     |
 | 2025-01  | XiYanSQL-QwenCoder-32B achieves an EX score of 69.03% on BIRD test, new SOTA using only single fine-tuned model        |
-|          | XiYanSQL-QwenCoder-32B has been released    |
+|          | XiYanSQL-QwenCoder-32B has been released          |
 
 ## Recruitment
 
