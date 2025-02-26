@@ -32,7 +32,7 @@ It contains:
 
 1. [M-schema](https://github.com/XGenerationLab/M-Schema) a semi-structured schema representation method.
 
-2. [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B) a LLM training strategy with tuned generation model for SQLite.
+2. [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) a LLM training strategy with tuned generation model for SQLite.
 
 3. [Ensemble Strategy](https://github.com/XGenerationLab/XiYan-Selection) a multi-generator ensemble strategy with selection model (to release soon).
 
@@ -44,9 +44,9 @@ It contains:
 
 ## News🔥
 
-+ `Jan. 22, 2025` 🌟We release [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B) and simultaneously open source the model weights.
++ `Jan. 22, 2025` 🌟We release [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) and simultaneously open source the model weights.
 
-+ `Jan. 09, 2025` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B): XiYanSQL-QwenCoder-32B achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
++ `Jan. 09, 2025` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder): XiYanSQL-QwenCoder-32B achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
 
 + `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the **top** of Bird leaderboard with an EX score of **75.63%**, outperforming the second place by 0.84 pt.
 
