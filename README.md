@@ -48,7 +48,7 @@ It contains:
 
 1. [M-schema](https://github.com/XGenerationLab/M-Schema) a semi-structured schema representation method.
 
-2. [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) a LLM training strategy with tuned generation model for SQLite.
+2. [XiYanSQL-QwenCoders](https://github.com/XGenerationLab/XiYanSQL-QwenCoder)  Multiple different sizes of XiYanSQL models for SQL generation.
 
 3. [Ensemble Strategy](https://github.com/XGenerationLab/XiYan-Selection) a multi-generator ensemble strategy with selection model (to release soon).
 
