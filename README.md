@@ -74,7 +74,9 @@ The proposed framework not only enhances the quality and diversity of SQL querie
 
 ## Coming Soon🕒
 
-1. The XiYanSQL-QwenCoder series model will be released in `Feb 2025`. `Done`
+1. More code and models will be released.
+
+2. The XiYanSQL-QwenCoder series model will be released in `Feb 2025`. `Done`
    
 3. The fine-tuned model for SQL generation will be released.`Jan. 2025` `Done`
 
