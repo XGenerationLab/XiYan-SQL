@@ -25,6 +25,22 @@
 
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
+
+## News🔥
+
++ `Feb. 26, 2025` 🌟We are excited to open source the [XiYanSQL-QwenCoder](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) series model, dedicated to advancing the development of LLMs in the text-to-SQL domain. As of now, XiYanSQL-QwenCoder covers four mainstream model sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers.
+
++ `Jan. 22, 2025` 🌟We release [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) and simultaneously open source the model weights.
+
++ `Jan. 09, 2025` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder): XiYanSQL-QwenCoder-32B achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
+
++ `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the **top** of Bird leaderboard with an EX score of **75.63%**, outperforming the second place by 0.84 pt.
+
++ `Dec. 13, 2024` We release the model and source code of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver).
+
++ `Dec. 12, 2024` Try our model: [ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
+
+
 ## Introduction in Short
 XiYan-SQL is an innovative framework for LLM based Text-to-SQL. 
 
@@ -42,18 +58,6 @@ It contains:
 
 6. [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen) a method and corresponding code for automatic description generation for Text-to-SQL (to release soon).
 
-## News🔥
-
-+ `Jan. 22, 2025` 🌟We release [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) and simultaneously open source the model weights.
-
-+ `Jan. 09, 2025` 🌟[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder): XiYanSQL-QwenCoder-32B achieves an EX score of **69.03%** on the BIRD test set, setting a new SOTA under only a single fine-tuned model.
-
-+ `Dec. 17, 2024` 🌟[New SOTA on Bird](https://bird-bench.github.io/): XiYan-SQL reaches the **top** of Bird leaderboard with an EX score of **75.63%**, outperforming the second place by 0.84 pt.
-
-+ `Dec. 13, 2024` We release the model and source code of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver).
-
-+ `Dec. 12, 2024` Try our model: [ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
-
 
 ## Full Intro.
 To tackle the challenges of large language model performance in natural language to SQL tasks, we introduce XiYan-SQL, an innovative framework that employs a multi-generator ensemble strategy to improve candidate generation.
@@ -70,15 +74,14 @@ The proposed framework not only enhances the quality and diversity of SQL querie
 
 ## Coming Soon🕒
 
-1. The complete code for XiYan-SQL will be released.`Feb. 2025`
+1. The XiYanSQL-QwenCoder series model will be released in `Feb 2025`. `Done`
+   
+3. The fine-tuned model for SQL generation will be released.`Jan. 2025` `Done`
 
-2. The fine-tuned model for SQLite will be released.`Jan. 2025` `Done`
+4. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Jan. 2025`
 
-3. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Jan. 2025`
+5. The code and model of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) will be released. `Dec. 2024` `Done`
 
-4. The code and model of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) will be released. `Dec. 2024` `Done`
-
-5. The MoMQ model and training code will be released.`Jan. 2025`
 
 ## Timeline
 The major events.
@@ -95,6 +98,7 @@ The major events.
 | 2024-12  | Reaching the top of Bird leaderboard with an EX score of 75.63% and R-VES of 71.41([new SOTA](https://bird-bench.github.io/))     |
 | 2025-01  | XiYanSQL-QwenCoder-32B achieves an EX score of 69.03% on BIRD test, new SOTA using only single fine-tuned model        |
 |          | XiYanSQL-QwenCoder-32B has been released          |
+| 2025-02  | We have released the XiYanSQL-QwenCoder series model, which includes four different sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers. |
 
 ## Recruitment
 
