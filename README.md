@@ -25,8 +25,8 @@
 
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
-
 ## News🔥
++ `Mar. 4, 2025` 🌟We release the method and source code of automatically generating database description for Text-to-SQL: [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen).
 
 + `Feb. 26, 2025` 🌟We are excited to open source the [XiYanSQL-QwenCoder](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) series model, dedicated to advancing the development of LLMs in the text-to-SQL domain. As of now, XiYanSQL-QwenCoder covers four mainstream model sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers.
 
@@ -56,7 +56,7 @@ It contains:
 
 5. [MoMQ](https://github.com/XGenerationLab/MoMQ) a multi-dialects Text-to-SQL MoE model based on Qwen (to release soon).
 
-6. [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen) a method and corresponding code for automatic description generation for Text-to-SQL (to release soon).
+6. [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen) a method and corresponding code for automatic description generation for Text-to-SQL.
 
 
 ## Full Intro.
@@ -80,7 +80,7 @@ The proposed framework not only enhances the quality and diversity of SQL querie
    
 3. The fine-tuned model for SQL generation will be released.`Jan. 2025` `Done`
 
-4. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Jan. 2025`
+4. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Feb. 2025` `Done`
 
 5. The code and model of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) will be released. `Dec. 2024` `Done`
 
