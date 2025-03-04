@@ -40,9 +40,10 @@ XiYan-SQL包含以下内容：
 
 5. [MoMQ](https://github.com/XGenerationLab/MoMQ) 一个基于QWen的多方言Text-to-SQL的MoE模型（即将发布）。
 
-6. [数据库描述自动生成](https://github.com/XGenerationLab/XiYan-DBDescGen) 一个自动生成数据库描述的方法和相应代码（即将发布）。
+6. [数据库描述自动生成](https://github.com/XGenerationLab/XiYan-DBDescGen) 一个自动生成数据库描述的方法和相应代码。
 
 ## 新闻🔥
++ `2025-03-04` 🌟我们发布了用于Text-to-SQL任务的自动生成数据库描述的方法和源代码: [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen).
 
 + `2025-01-22` 🌟我们正式发布[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B)并开源模型权重
 
@@ -70,7 +71,7 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 
 2. 我们将发布微调的SQLite模型[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B)。`2025-01` `已发布`
 
-3. 我们将提供一种用于NL2SQL的自动生成数据库描述的方法和对应的代码。`2025-01`
+3. 我们将提供一种用于NL2SQL的自动生成数据库描述的方法和对应的代码。`2025-02` `已发布`
 
 4. 我们将发布[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的模型和代码。`2024-12` `已发布`
 
