@@ -26,6 +26,9 @@
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
 ## News🔥
+
++ `Mar. 10, 2025` 🌟We have fully released our XiYanSQL-QwenCoder series models on the HuggingFace platform: [HuggingFace](https://huggingface.co/collections/XGenerationLab/xiyansql-models-67c9844307b49f87436808fc).
+
 + `Mar. 04, 2025` 🌟We release the method and source code of automatically generating database description for Text-to-SQL: [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen).
 
 + `Feb. 26, 2025` 🌟We are excited to open source the [XiYanSQL-QwenCoder](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) series model, dedicated to advancing the development of LLMs in the text-to-SQL domain. As of now, XiYanSQL-QwenCoder covers four mainstream model sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers.
