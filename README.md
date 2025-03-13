@@ -26,6 +26,7 @@
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
 ## News🔥
++ `Mar. 13, 2025` 🌟We release a MCP server of XiyanSQL: [XiYan-MCP-server](https://github.com/XGenerationLab/xiyan_mcp_server).
 
 + `Mar. 10, 2025` 🌟We have fully released our XiYanSQL-QwenCoder series models on the HuggingFace platform: [HuggingFace](https://huggingface.co/collections/XGenerationLab/xiyansql-models-67c9844307b49f87436808fc).
 
