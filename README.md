@@ -25,7 +25,7 @@
 
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
-We are excited to announce that XiYanSQL-QwenCoder-32B can be called directly through the ModelScope API. For details, see [XiYanSQL-QwenCoder-32B-2412](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412)
+We are excited to announce that XiYanSQL-QwenCoder-32B can be used directly through ModelScope API. For details, see [XiYanSQL-QwenCoder-32B-2412](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412)
 
 ## News🔥
 + `Mar. 13, 2025` 🌟We release a MCP server of XiyanSQL: [XiYan-MCP-server](https://github.com/XGenerationLab/xiyan_mcp_server).
