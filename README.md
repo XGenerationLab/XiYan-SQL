@@ -26,6 +26,8 @@
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
 ## News🔥
++ `Apr. 29, 2025` 🌟 We are excited to update our new [XiYanSQL-QwenCoder-2504](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) series models. This version includes significant optimizations over the previous version, achieving new SOTA performance for single models. We welcome everyone to try it out.
+
 + `Mar. 21, 2025` 🌟 Want a high security data access? [XiYan-MCP-server](https://github.com/XGenerationLab/xiyan_mcp_server) now supports the local mode, which runs [XiYanSQL-QwenCoder-3B](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-3B-2502) on your own PC/Mac.
 
 + `Mar. 20, 2025` 🌟 We are excited to announce that XiYanSQL-QwenCoder-32B can be used directly through **ModelScope API**. For details, see [XiYanSQL-QwenCoder-32B-2412](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412)
@@ -110,6 +112,7 @@ The major events.
 | 2025-01  | XiYanSQL-QwenCoder-32B achieves an EX score of 69.03% on BIRD test, new SOTA using only single fine-tuned model        |
 |          | XiYanSQL-QwenCoder-32B has been released          |
 | 2025-02  | We have released the XiYanSQL-QwenCoder series model, which includes four different sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers. |
+| 2025-04  | We have released version **2504** of the **XiYanSQL-QwenCoder** series models, which features enhanced performance compared to the previous version. It still includes four different parameter sizes: 3B, 7B, 14B, and 32B. We encourage everyone to utilize these models.|
 
 ## Recruitment
 
