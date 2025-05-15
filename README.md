@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/xgenerationlab-xiyan-sql-badge.png)](https://mseep.ai/app/xgenerationlab-xiyan-sql)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyanGBI.png" alt="image" />
 </p>
