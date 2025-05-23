@@ -26,6 +26,8 @@
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
 ## News🔥
++ `May. 22, 2025` 🌟 [New SOTA on BIRD-CRITIC-Flash](https://bird-critic.github.io/): XiYanSQL-CRITIC algorithm achieves a **41%** Pass Rate score on the BIRD-CRITIC-Flash benchmark, setting a new SOTA performance.
+
 + `Apr. 29, 2025` 🌟 We are excited to update our new [XiYanSQL-QwenCoder-2504](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) series models. This version includes significant optimizations over the previous version, achieving new SOTA performance for single models. We welcome everyone to try it out.
 
 + `Mar. 21, 2025` 🌟 Want a high security data access? [XiYan-MCP-server](https://github.com/XGenerationLab/xiyan_mcp_server) now supports the local mode, which runs [XiYanSQL-QwenCoder-3B](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-3B-2502) on your own PC/Mac.
