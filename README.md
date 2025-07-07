@@ -1,4 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/xgenerationlab-xiyan-sql-badge.png)](https://mseep.ai/app/xgenerationlab-xiyan-sql)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/XGenerationLab/XiYan-SQL/main/xiyanGBI.png" alt="image" />
@@ -133,6 +132,10 @@ For product introduction, please visit: https://help.aliyun.com/zh/model-studio/
 To try the product, please visit: https://bailian.console.aliyun.com/xiyan
 
 Product DingTalk Group: 94725009401
+
+## Others
+
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/xgenerationlab-xiyan-sql-badge.png)](https://mseep.ai/app/xgenerationlab-xiyan-sql)
 
 
 ## Star History
