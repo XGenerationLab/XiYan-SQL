@@ -145,7 +145,18 @@ Product DingTalk Group: 94725009401
 ## Citation
 If you find our work helpful, feel free to give us a cite.
 ```bibtex
-@article{xiyansql,
+@article{XiYanSQL,
+      title={XiYan-SQL: A Novel Multi-Generator Framework For Text-to-SQL}, 
+      author={Yifu Liu and Yin Zhu and Yingqi Gao and Zhiling Luo and Xiaoxia Li and Xiaorong Shi and Yuntao Hong and Jinyang Gao and Yu Li and Bolin Ding and Jingren Zhou},
+      year={2025},
+      eprint={2507.04701},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.04701}, 
+}
+```
+```bibtex
+@article{xiyansql_pre,
       title={A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL}, 
       author={Yingqi Gao and Yifu Liu and Xiaoxia Li and Xiaorong Shi and Yin Zhu and Yiming Wang and Shiqi Li and Wei Li and Yuntao Hong and Zhiling Luo and Jinyang Gao and Liyu Mou and Yu Li},
       year={2024},
