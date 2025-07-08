@@ -11,8 +11,10 @@
 <div align="center">
   
 [🤗 析言GBI](https://bailian.console.aliyun.com/xiyan) | 
+[🤖 XiYanSQL Model](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) | 
 [💻 M-Schema](https://github.com/XGenerationLab/M-Schema) | 
-[📖 Arxiv](https://arxiv.org/abs/2411.08599)| 
+[📖 Arxiv](https://arxiv.org/abs/2507.04701)| 
+[📖 Preview](https://arxiv.org/abs/2411.08599)| 
 [📄 PapersWithCode](https://paperswithcode.com/paper/xiyan-sql-a-multi-generator-ensemble)
 
 </div>
