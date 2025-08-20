@@ -140,7 +140,7 @@ Product DingTalk Group: 94725009401
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/xgenerationlab-xiyan-sql-badge.png)](https://mseep.ai/app/xgenerationlab-xiyan-sql)
 
 Contact us:
-<a href="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql_dingding.png">Ding Group钉钉群</a>｜ 
+<a href="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql_dingding.png">Ding Group钉钉群</a> 
 
 ## Star History
 
