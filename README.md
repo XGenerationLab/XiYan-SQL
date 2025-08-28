@@ -119,12 +119,6 @@ The major events.
 | 2025-02  | We have released the XiYanSQL-QwenCoder series model, which includes four different sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers. |
 | 2025-04  | We have released version **2504** of the **XiYanSQL-QwenCoder** series models, which features enhanced performance compared to the previous version. It still includes four different parameter sizes: 3B, 7B, 14B, and 32B. We encourage everyone to utilize these models.|
 
-## Recruitment
-
-We're looking for summer interns, research interns, new graduates, and internal transfers!
-
-Please contact: Zhiling Luo, godot.lzl@alibaba-inc.com
-
 
 ## Application
 Welcome everyone to try the intelligent data querying solution based on XiYan-SQL, which is called XiYan GBI. We welcome any product experiences and suggestions for optimization.
@@ -135,12 +129,25 @@ To try the product, please visit: https://bailian.console.aliyun.com/xiyan
 
 Product DingTalk Group: 94725009401
 
+
+
+## Contact us:
+
+We'd love to hear from you! If you have any questions, suggestions, or feedback, please feel free to reach out to us.
+
+#### Contact Information:
+
+Yifu Liu, zhencang.lyf@alibaba-inc.com
+
+#### Join Our DingTalk Group
+
+<a href="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql_dingding.png">Ding Group钉钉群</a> 
+
+
 ## Others
 
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/xgenerationlab-xiyan-sql-badge.png)](https://mseep.ai/app/xgenerationlab-xiyan-sql)
 
-Contact us:
-<a href="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql_dingding.png">Ding Group钉钉群</a> 
 
 ## Star History
 
