@@ -133,7 +133,7 @@ Product DingTalk Group: 94725009401
 
 ## Contact us:
 
-We'd love to hear from you! If you have any questions, suggestions, or feedback, please feel free to reach out to us.
+If you are interested in our research or products, please feel free to contact us.
 
 #### Contact Information:
 
