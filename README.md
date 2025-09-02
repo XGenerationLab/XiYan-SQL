@@ -56,7 +56,7 @@
 + `Dec. 12, 2024` Try our model: [ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
 
 
-## Introduction in Short
+## Introduction in Short.
 XiYan-SQL is an innovative framework for LLM based Text-to-SQL. 
 
 It contains:
