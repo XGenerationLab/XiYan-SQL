@@ -10,8 +10,10 @@
 <div align="center">
   
 [🤗 析言GBI](https://bailian.console.aliyun.com/xiyan) | 
+[🤖 XiYanSQL Model](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) | 
 [💻 M-Schema](https://github.com/XGenerationLab/M-Schema) | 
-[📖 Arxiv](https://arxiv.org/abs/2411.08599)| 
+[📖 Arxiv](https://arxiv.org/abs/2507.04701)| 
+[📖 Preview](https://arxiv.org/abs/2411.08599)| 
 [📄 PapersWithCode](https://paperswithcode.com/paper/xiyan-sql-a-multi-generator-ensemble)
 
 </div>
@@ -25,24 +27,20 @@
 
 # XiYan-SQL：一种多生成器集成的Text-to-SQL框架
 
-## 简介
-XiYan-SQL是一个全新的基于LLM的Text-to-SQL框架。
-
-XiYan-SQL包含以下内容：
-
-1. [M-schema](https://github.com/XGenerationLab/M-Schema) 一种半结构化的schema表示方法。
-
-2. [XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B) 针对SQLite的LLM训练策略和微调模型。
-
-3. [集成策略](https://github.com/XGenerationLab/XiYan-Selection) 一个具有选择模型的多生成器集成策略（即将发布）。
-
-4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) 一个增强日期理解和推理的模型，主要针对中文。
-
-5. [MoMQ](https://github.com/XGenerationLab/MoMQ) 一个基于QWen的多方言Text-to-SQL的MoE模型（即将发布）。
-
-6. [数据库描述自动生成](https://github.com/XGenerationLab/XiYan-DBDescGen) 一个自动生成数据库描述的方法和相应代码。
-
 ## 新闻🔥
+
++ `2025-05-22` 🌟 [New SOTA on BIRD-CRITIC-Flash](https://bird-critic.github.io/): XiYanSQL-CRITIC算法在BIRD-CRITIC-Flash基准测试中取得了**41%** 的通过率，创下了新的 SOTA 性能。
+
++ `2025-04-29` 🌟 我们很高兴更新了[XiYanSQL-QwenCoder-2504](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) 系列模型。此版本在上一版本的基础上进行了多项优化，单模型性能达到了新的SOTA水平，欢迎大家试用。
+
++ `2025-03-21` 🌟想要高安全性的数据访问？[XiYan-MCP-server](https://github.com/XGenerationLab/xiyan_mcp_server)现已支持本地模式，可在您自己的PC/Mac上运行[XiYanSQL-QwenCoder-3B](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-3B-2502) 。
+
++ `2025-03-20` 🌟我们很高兴地宣布，XiYanSQL-QwenCoder-32B 现已可通过ModelScope API直接使用。详情请参阅[XiYanSQL-QwenCoder-32B-2412](https://www.modelscope.cn/models/XGenerationLab/XiYanSQL-QwenCoder-32B-2412)。
+
++ `2025-03-12` 🌟我们发布了 XiyanSQL 的 MCP 服务器： [XiYan-MCP-server](https://github.com/XGenerationLab/xiyan_mcp_server).
+
++ `2025-03-10` 🌟我们在 HuggingFace 平台上全面发布了XiYanSQL-QwenCoder系列模型： [HuggingFace](https://huggingface.co/collections/XGenerationLab/xiyansql-models-67c9844307b49f87436808fc).
+  
 + `2025-03-04` 🌟我们发布了用于Text-to-SQL任务的自动生成数据库描述的方法和源代码: [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen).
 
 + `2025-01-22` 🌟我们正式发布[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B)并开源模型权重
@@ -54,6 +52,26 @@ XiYan-SQL包含以下内容：
 + `2024-12-13` 我们公开了[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的代码和模型
 
 + `2024-12-12` 模型体验请访问：[ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
+
+
+## 简介
+XiYan-SQL是一个全新的基于LLM的Text-to-SQL框架。
+
+XiYan-SQL包含以下内容：
+
+1. [M-schema](https://github.com/XGenerationLab/M-Schema) 一种半结构化的schema表示方法。
+
+2. [XiYanSQL-QwenCoders](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) 专用于SQL生成的多种不同尺寸的XiYanSQL模型。
+
+3. [集成策略](https://github.com/XGenerationLab/XiYan-Selection) 一个具有选择模型的多生成器集成策略（即将发布）。
+
+4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) 一个增强日期理解和推理的模型，主要针对中文。
+
+5. [MoMQ](https://github.com/XGenerationLab/MoMQ) 一个基于QWen的多方言Text-to-SQL的MoE模型（即将发布）。
+
+6. [数据库描述自动生成](https://github.com/XGenerationLab/XiYan-DBDescGen) 一个自动生成数据库描述的方法和相应代码。
+
+🌟 欢迎大家为 XiYanSQL 项目做出贡献！！！
 
 ## 引言
 为了应对大型语言模型在Text-to-SQL任务中的挑战，我们引入了XiYan-SQL，这是一个全新的框架，采用多生成器集成的策略来提高候选SQL的质量。
@@ -67,6 +85,7 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 总体而言，我们提出的XiYan-SQL在Bird测试集上达到75.63%的执行准确率，Spider测试集上达到了89.65%，在SQL-Eval上达到了69.86%。该结果是**1st on Bird test, 1st on spider，1st on SQL_EVAL**。该框架不仅提高了生成SQL查询的质量和多样性，端到端的效果也优于以前的方法。
 
 ## 即将发布，敬请期待🕒
+
 1. 我们将发布完整的XiYan-SQL代码。`2025-02`
 
 2. 我们将发布微调的SQLite模型[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B)。`2025-01` `已发布`
@@ -92,12 +111,8 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 | 2024-12  | 以75.63%的EX和71.41的R-VES登顶Bird榜单([新的SOTA](https://bird-bench.github.io/)) |
 | 2025-01  | XiYanSQL-QwenCoder-32B在BIRD上达到了69.03%的EX，是仅使用单个微调模型的SOTA  |
 |          | XiYanSQL-QwenCoder-32B正式发布      |
-
-## 招聘
-
-欢迎 暑期实习/研究型实习生/正式校招/转岗
-
-有意向请联系：罗智凌, godot.lzl@alibaba-inc.com
+| 2025-02  | 我们发布了 XiYanSQL-QwenCoder系列模型，包含 3B、7B、14B、32B四种不同大小的参数，以满足不同开发者的需求。 |
+| 2025-04  | 我们发布了XiYanSQL-QwenCoder系列模型2504版本，该版本相比上一版本性能有所提升。它仍然包含 3B、7B、14B和32B四种不同的参数大小。我们鼓励大家使用这些模型。|
 
 ## 应用
 欢迎大家体验基于XiYan-SQL打造的智能问数解决方案——析言GBI。
@@ -109,15 +124,39 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 
 产品钉群：94725009401
 
+## 联系我们
+
+如果您对我们的研究或产品感兴趣，请随时联系我们。
+
+#### 联系信息:
+
+刘义富, zhencang.lyf@alibaba-inc.com
+
+#### 加入我们的钉钉群
+
+<a href="https://github.com/XGenerationLab/XiYan-SQL/blob/main/xiyansql_dingding.png">Ding Group钉钉群</a> 
+
+
 ## 引用
-如果您觉得我们的工作对您有帮助，欢迎引用。
+如果您觉得我们的工作对您有帮助，欢迎给我们一个引用。
+
 ```bibtex
-@article{xiyansql,
-      title={XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL}, 
+@article{XiYanSQL,
+      title={XiYan-SQL: A Novel Multi-Generator Framework For Text-to-SQL}, 
+      author={Yifu Liu and Yin Zhu and Yingqi Gao and Zhiling Luo and Xiaoxia Li and Xiaorong Shi and Yuntao Hong and Jinyang Gao and Yu Li and Bolin Ding and Jingren Zhou},
+      year={2025},
+      eprint={2507.04701},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.04701}, 
+}
+```
+```bibtex
+@article{xiyansql_pre,
+      title={A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL}, 
       author={Yingqi Gao and Yifu Liu and Xiaoxia Li and Xiaorong Shi and Yin Zhu and Yiming Wang and Shiqi Li and Wei Li and Yuntao Hong and Zhiling Luo and Jinyang Gao and Liyu Mou and Yu Li},
       year={2024},
       journal={arXiv preprint arXiv:2411.08599},
       url={https://arxiv.org/abs/2411.08599},
       primaryClass={cs.AI}
 }
-```
