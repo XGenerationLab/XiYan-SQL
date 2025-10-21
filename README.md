@@ -31,6 +31,8 @@
 ## News🔥
 + `Oct. 20, 2025` 🌟 [New SOTA on BIRD-CRITIC](https://bird-critic.github.io/): XiYan-SQL-CRITIC technique has achieved a remarkable **44.53%** success rate on the BIRD-CRITIC-PG benchmark, securing the top position with SOTA performance! Additionally, it recorded an impressive **48.5%** success rate on the BIRD-CRITIC-Flash benchmark, also establishing a new SOTA performance.
   
++ `Oct. 20, 2025` 🌟 The training framework of XiYan-SQL, **XiYan-SQLTraining**, will soon be released as open source in the official Alibaba repository of [XiYan-SQL](https://github.com/alibaba/XiYan-SQL). Stay tuned!
++ ...
 + `May. 22, 2025` 🌟 [New SOTA on BIRD-CRITIC-Flash](https://bird-critic.github.io/): XiYanSQL-CRITIC algorithm achieves a **41%** Pass Rate score on the BIRD-CRITIC-Flash benchmark, setting a new SOTA performance.
 
 + `Apr. 29, 2025` 🌟 We are excited to update our new [XiYanSQL-QwenCoder-2504](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) series models. This version includes significant optimizations over the previous version, achieving new SOTA performance for single models. We welcome everyone to try it out.
