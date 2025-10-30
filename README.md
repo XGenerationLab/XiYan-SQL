@@ -28,6 +28,8 @@
 
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
+#### [Here](https://github.com/alibaba/XiYan-SQL) is the new official Alibaba repository for XiYan-SQL. We will currently maintain synchronization between these two addresses.
+
 ## News🔥
 
 + `Oct. 30, 2025` 🌟 We are excited to release the XiYan-SQL training framework **[XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL)**! This framework is primarily designed for the training of SQL/general LLMs and includes capabilities such as SQL data processing, model training, and evaluation as proposed by XiYan. We will continue to enhance the framework in the future.
