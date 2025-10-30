@@ -29,6 +29,8 @@
 
 ## 新闻🔥
 
++ `2025-10-30` 🌟 我们很高兴发布了XiYan-SQL的训练框架 **[XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL)**，它主要面向SQL/通用大模型的训练，其中包括XiYan提出的SQL数据处理、模型训练、评测等功能，在未来我们会逐步进行完善。
+  
 + `2025-10-20` 🌟 [New SOTA on BIRD-CRITIC-Flash](https://bird-critic.github.io/): XiYan-SQL-CRITIC 技术，实现了**44.53%** 的通过率，在BIRD-CRITIC-PG榜单上获得第一名创造了新SOTA，同时在BIRD-CRITIC-Flash榜单上实现了**48.5%** 的通过率，也是新的SOTA性能。
 + `2025-10-20` 🌟 XiYan-SQL的训练框架**XiYan-SQLTraining** 将会在XiYan-SQL的阿里巴巴官方仓库近期开源发布，敬请期待！！！
 + ...
