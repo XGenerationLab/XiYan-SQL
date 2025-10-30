@@ -27,6 +27,8 @@
 
 # XiYan-SQL：一种多生成器集成的Text-to-SQL框架
 
+#### [这里](https://github.com/alibaba/XiYan-SQL)是新的阿里巴巴官方XiYan-SQL代码库，目前我们将会同步维护这两个地址。
+
 ## 新闻🔥
 
 + `2025-10-30` 🌟 我们很高兴发布了XiYan-SQL的训练框架 **[XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL)**，它主要面向SQL/通用大模型的训练，其中包括XiYan提出的SQL数据处理、模型训练、评测等功能，在未来我们会逐步进行完善。
