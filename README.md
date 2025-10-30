@@ -29,6 +29,9 @@
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
 ## News🔥
+
++ `Oct. 30, 2025` 🌟 We are excited to release the XiYan-SQL training framework **[XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL)**! This framework is primarily designed for the training of SQL/general LLMs and includes capabilities such as SQL data processing, model training, and evaluation as proposed by XiYan. We will continue to enhance the framework in the future.
+
 + `Oct. 20, 2025` 🌟 [New SOTA on BIRD-CRITIC](https://bird-critic.github.io/): XiYan-SQL-CRITIC technique has achieved a remarkable **44.53%** success rate on the BIRD-CRITIC-PG benchmark, securing the top position with SOTA performance! Additionally, it recorded an impressive **48.5%** success rate on the BIRD-CRITIC-Flash benchmark, also establishing a new SOTA performance.
   
 + `Oct. 20, 2025` 🌟 The training framework of XiYan-SQL, **XiYan-SQLTraining**, will soon be released as open source in the official Alibaba repository of [XiYan-SQL](https://github.com/alibaba/XiYan-SQL). Stay tuned!
