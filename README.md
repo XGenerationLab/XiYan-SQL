@@ -31,6 +31,7 @@
 #### [Here](https://github.com/alibaba/XiYan-SQL) is the new official Alibaba repository for XiYan-SQL. We will currently maintain synchronization between these two addresses.
 
 ## News🔥
++ `Nov. 21, 2025` 🌟 [New SOTA on BIRD-CRITIC-Open](https://bird-critic.github.io/): XiYan-SQL-CRITIC technique has achieved an impressive **44.37%** success rate on BIRD-CRITIC-Open, a highly challenging multi-dialect benchmark, securing the top position with SOTA performance!
 
 + `Oct. 30, 2025` 🌟 We are excited to release the XiYan-SQL training framework **[XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL)**! This framework is primarily designed for the training of SQL/general LLMs and includes capabilities such as SQL data processing, model training, and evaluation as proposed by XiYan. We will continue to enhance the framework in the future.
 
