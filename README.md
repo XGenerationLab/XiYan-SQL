@@ -28,7 +28,7 @@
 
 # XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
 
-#### [Here](https://github.com/alibaba/XiYan-SQL) is the new official Alibaba repository for XiYan-SQL. We will currently maintain synchronization between these two addresses.
+### [Here](https://github.com/alibaba/XiYan-SQL) is the new official Alibaba repository for XiYan-SQL. We will currently maintain synchronization between these two addresses.
 
 ## News🔥
 + `Nov. 21, 2025` 🌟 [New SOTA on BIRD-CRITIC-Open](https://bird-critic.github.io/): XiYan-SQL-CRITIC technique has achieved an impressive **44.37%** success rate on BIRD-CRITIC-Open, a highly challenging multi-dialect benchmark, securing the top position with SOTA performance!
