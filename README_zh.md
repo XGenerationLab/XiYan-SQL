@@ -27,7 +27,7 @@
 
 # XiYan-SQL：一种多生成器集成的Text-to-SQL框架
 
-#### [这里](https://github.com/alibaba/XiYan-SQL)是新的阿里巴巴官方XiYan-SQL代码库，目前我们将会同步维护这两个地址。
+### [这里](https://github.com/alibaba/XiYan-SQL)是新的阿里巴巴官方XiYan-SQL代码库，目前我们将会同步维护这两个地址。
 
 ## 新闻🔥
 
@@ -68,17 +68,21 @@ XiYan-SQL是一个全新的基于LLM的Text-to-SQL框架。
 
 XiYan-SQL包含以下内容：
 
-1. [M-schema](https://github.com/XGenerationLab/M-Schema) 一种半结构化的schema表示方法。
+- [XiYanSQL-QwenCoders](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) **专注于SQL生成的多种不同尺寸的XiYanSQL模型。**
+  
+- [XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL/tree/main/XiYan-SQLTraining) XiYan开发的专门针对文本到SQL任务设计的后训练框架。
 
-2. [XiYanSQL-QwenCoders](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) 专用于SQL生成的多种不同尺寸的XiYanSQL模型。
+- [XiYan-mcp](https://github.com/XGenerationLab/xiyan_mcp_server) 一个由XiYan-SQL驱动的MCP服务器，支持对数据库进行自然语言查询。
 
-3. [集成策略](https://github.com/XGenerationLab/XiYan-Selection) 一个具有选择模型的多生成器集成策略（即将发布）。
+- [M-schema](https://github.com/XGenerationLab/M-Schema) 一种半结构化的schema表示方法。
 
-4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) 一个增强日期理解和推理的模型，主要针对中文。
+- [数据库描述自动生成](https://github.com/XGenerationLab/XiYan-DBDescGen) 一个自动生成数据库描述的方法和相应代码。
+  
+- [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) 一个增强日期理解和推理的模型，主要针对中文。
+  
+- [MoMQ](https://github.com/XGenerationLab/MoMQ) 一个基于QWen的多方言Text-to-SQL的MoE模型。
 
-5. [MoMQ](https://github.com/XGenerationLab/MoMQ) 一个基于QWen的多方言Text-to-SQL的MoE模型（即将发布）。
-
-6. [数据库描述自动生成](https://github.com/XGenerationLab/XiYan-DBDescGen) 一个自动生成数据库描述的方法和相应代码。
+- ...
 
 🌟 欢迎大家为 XiYanSQL 项目做出贡献！！！
 
@@ -93,35 +97,30 @@ Refiner通过纠正逻辑或语法错误来进一步优化每个候选。
 在多个方言的数据集上的实验结果表明，XiYan-SQL在不同场景中均具有鲁棒性。
 总体而言，我们提出的XiYan-SQL在Bird测试集上达到75.63%的执行准确率，Spider测试集上达到了89.65%，在SQL-Eval上达到了69.86%。该结果是**1st on Bird test, 1st on spider，1st on SQL_EVAL**。该框架不仅提高了生成SQL查询的质量和多样性，端到端的效果也优于以前的方法。
 
-## 即将发布，敬请期待🕒
-
-1. 我们将发布完整的XiYan-SQL代码。`2025-02`
-
-2. 我们将发布微调的SQLite模型[XiYanSQL-QwenCoder-32B](https://github.com/XGenerationLab/XiYanSQL-QwenCoder-32B)。`2025-01` `已发布`
-
-3. 我们将提供一种用于NL2SQL的自动生成数据库描述的方法和对应的代码。`2025-02` `已发布`
-
-4. 我们将发布[DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver)的模型和代码。`2024-12` `已发布`
-
-5. 我们将发布MoMQ的模型和训练代码。`2025-01` 
 
 ## 时间线
 主要事件：
 
-| 日期    | 事件   |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2024-05  | 提出M-schema，在SQL生成中引入ICL   |
-|          | 在Spider test上达到86.98% (SOTA 86.6%) |
-| 2024-09  | 提出DateSolver                      |
-| 2024-10  | 提出一个MoE模型MoMQ   |
+| 日期     | 事件                                                                                                                                                                                                                                                                                                                                                                             |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2025-11 |XiYan-SQL-CRITIC 技术在一个极具挑战性的真实世界多方言基准测试 BIRD-CRITIC-Open 上取得了令人瞩目的 **44.37%** 成功率，以 SOTA 性能稳居榜首！|
+| 2025-10 |我们激动地发布了 XiYan-SQL 训练框架 **[XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL/tree/main/XiYan-SQLTraining)** !!! 该框架主要用于 SQL及通用大语言模型的训练，包含了析言所提出的SQL数据处理、模型训练和评估等能力。我们未来将持续完善该框架。|
+| 2025-10 | XiYan-SQL-CRITIC 技术在[BIRD-CRITIC-PG](https://bird-critic.github.io/) 基准测试上取得了卓越的 **44.53%** 成功率，以SOTA性能位居榜首! 此外，它在[BIRD-CRITIC-Flash](https://bird-critic.github.io/)基准测试上取得了令人印象深刻的 **48.5%** 成功率，同样创造了新的SOTA性能。   |
+| 2025-09 | **XiYanSQL-QwenCoder** 系列模型在魔搭 [ModelScope](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) 上的下载量已突破 **10万**，成为该领域最具影响力的SQL模型。|                                                    
+| 2025-05 | XiYanSQL-CRITIC 算法在 BIRD-CRITIC-Flash 基准测试上取得了 **41%** 的通过率（Pass Rate），创造了新的SOTA性能。 |
+| 2025-04 | 我们发布了**XiYanSQL-QwenCoder**系列模型2504版本，该版本相比上一版本性能有所提升。它仍然包含 3B、7B、14B和32B四种不同的参数大小。我们鼓励大家使用这些模型。                                                                                                    |
+| 2025-02 | 我们发布了**XiYanSQL-QwenCoder** 系列模型，包含 3B、7B、14B、32B四种不同大小的参数，以满足不同开发者的需求。 |
+| 2025-01  | XiYanSQL-QwenCoder-32B在BIRD上达到了**69.03%** 的EX，是仅使用单个微调模型的SOTA  |
+|          | XiYanSQL-QwenCoder-32B正式发布      |
+| 2024-12  | 以**75.63%EX**和 **71.41%** 的R-VES登顶BIRD榜单([新的SOTA](https://bird-bench.github.io/)) |
 | 2024-11  | 提出了新的训练和集成方法 |
 |          | 在Spider test上达到89.65%([新的SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider))，在SQL-Eval上达到69.86% ([新的SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1))                                                                     |
-|          | 在NL2GQL上达到41.20%，Bird dev上达到72.23% ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))  |
-| 2024-12  | 以75.63%的EX和71.41的R-VES登顶Bird榜单([新的SOTA](https://bird-bench.github.io/)) |
-| 2025-01  | XiYanSQL-QwenCoder-32B在BIRD上达到了69.03%的EX，是仅使用单个微调模型的SOTA  |
-|          | XiYanSQL-QwenCoder-32B正式发布      |
-| 2025-02  | 我们发布了 XiYanSQL-QwenCoder系列模型，包含 3B、7B、14B、32B四种不同大小的参数，以满足不同开发者的需求。 |
-| 2025-04  | 我们发布了XiYanSQL-QwenCoder系列模型2504版本，该版本相比上一版本性能有所提升。它仍然包含 3B、7B、14B和32B四种不同的参数大小。我们鼓励大家使用这些模型。|
+|          | 在NL2GQL上达到41.20%，Bird dev上达到72.23% ([NEW](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))  |
+| 2024-10  | 提出第一个MoE模型MoMQ   |
+| 2024-09  | 提出DateSolver                      |
+| 2024-05  | 提出M-schema，在SQL生成中引入ICL   |
+|          | 在Spider test上达到86.98% (SOTA 86.6%) |
+
 
 ## 应用
 欢迎大家体验基于XiYan-SQL打造的智能问数解决方案——析言GBI。
