@@ -71,17 +71,21 @@ XiYan-SQL is an innovative framework for LLM based Text-to-SQL.
 
 It contains:
 
-1. [M-schema](https://github.com/XGenerationLab/M-Schema) a semi-structured schema representation method.
+- [XiYanSQL-QwenCoders](https://github.com/XGenerationLab/XiYanSQL-QwenCoder)  Multiple different sizes of XiYanSQL models for SQL generation.
 
-2. [XiYanSQL-QwenCoders](https://github.com/XGenerationLab/XiYanSQL-QwenCoder)  Multiple different sizes of XiYanSQL models for SQL generation.
+- [XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL/tree/main/XiYan-SQLTraining) A post-training framework specifically designed for the Text-to-SQL task developed by XiYan.
+  
+- [XiYan-mcp](https://github.com/XGenerationLab/xiyan_mcp_server) A MCP server that enables natural language queries to databases powered by XiYan-SQL, SOTA of text-to-sql on open benchmarks.
+  
+- [M-schema](https://github.com/XGenerationLab/M-Schema) a semi-structured schema representation method.
 
-3. [Ensemble Strategy](https://github.com/XGenerationLab/XiYan-Selection) a multi-generator ensemble strategy with selection model (to release soon).
+- [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen) a method and corresponding code for automatic description generation for Text-to-SQL.
 
-4. [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) a date understanding and reasoning enhanced model, major for Chinese.
+- [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) a date understanding and reasoning enhanced model, major for Chinese.
 
-5. [MoMQ](https://github.com/XGenerationLab/MoMQ) a multi-dialects Text-to-SQL MoE model based on Qwen (to release soon).
+- [MoMQ](https://github.com/XGenerationLab/MoMQ) a multi-dialects Text-to-SQL MoE model based on Qwen.
+- ...
 
-6. [Database Description Generation](https://github.com/XGenerationLab/XiYan-DBDescGen) a method and corresponding code for automatic description generation for Text-to-SQL.
 
 🌟 We welcome everyone to contribute to the XiYanSQL project !!!
 
@@ -97,37 +101,29 @@ The experimental results on multiple dialect datasets demonstrate the robustness
 Overall, our proposed XiYan-SQL achieves the state-of-the-art execution accuracy of 75.63\% on Bird test, 89.65\% on the Spider test set, 69.86\% on SQL-Eval, 41.20\% on NL2GQL.
 The proposed framework not only enhances the quality and diversity of SQL queries but also outperforms previous methods.
 
-
-## Coming Soon🕒
-
-1. More code and models will be released.
-
-2. The XiYanSQL-QwenCoder series model will be released in `Feb 2025`. `Done`
-   
-3. The fine-tuned model for SQL generation will be released.`Jan. 2025` `Done`
-
-4. A method and corresponding code for automatic description generation for Text-to-SQL will be provided.`Feb. 2025` `Done`
-
-5. The code and model of [DateResolver](https://github.com/XGenerationLab/XiYan-DateResolver) will be released. `Dec. 2024` `Done`
-
-
 ## Timeline
 The major events.
 
-| Date     | Event                                                                                                                                                             |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2024-05  | Proposing M-schema, involving ICL in SQL generation   |
-|          | Achieving 86.98% on Spider test set (SOTA 86.6%)       |
-| 2024-09  | Proposing DateSolver                      |
-| 2024-10  | Proposing an MoE model MoMQ   |
-| 2024-11  | Proposing Training Strategy and Ensemble Strategy      |
-|          | Achieving 89.65% on Spider test set ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider)), 69.86% on SQL-Eval ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1))                                                                     |
-|          | Achieving 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([4-th](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))          |
-| 2024-12  | Reaching the top of Bird leaderboard with an EX score of 75.63% and R-VES of 71.41([new SOTA](https://bird-bench.github.io/))     |
-| 2025-01  | XiYanSQL-QwenCoder-32B achieves an EX score of 69.03% on BIRD test, new SOTA using only single fine-tuned model        |
-|          | XiYanSQL-QwenCoder-32B has been released          |
-| 2025-02  | We have released the XiYanSQL-QwenCoder series model, which includes four different sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers. |
-| 2025-04  | We have released version **2504** of the **XiYanSQL-QwenCoder** series models, which features enhanced performance compared to the previous version. It still includes four different parameter sizes: 3B, 7B, 14B, and 32B. We encourage everyone to utilize these models.|
+| Date    | Event                                                                                                                                                                                                                                                                                                                                                                             |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2025-11 |XiYan-SQL-CRITIC technique has achieved an impressive **44.37%** success rate on BIRD-CRITIC-Open, a highly challenging real-world multi-dialect benchmark, securing the top position with SOTA performance! |
+| 2025-10 |We are excited to release the XiYan-SQL training framework **[XiYan-SQLTraining](https://github.com/alibaba/XiYan-SQL/tree/main/XiYan-SQLTraining)** !!! This framework is primarily designed for the training of SQL/general LLMs and includes capabilities such as SQL data processing, model training, and evaluation as proposed by XiYan. We will continue to enhance the framework in the future. |
+| 2025-10 | XiYan-SQL-CRITIC technique has achieved a remarkable **44.53%** success rate on the [BIRD-CRITIC-PG](https://bird-critic.github.io/) benchmark, securing the top position with SOTA performance! Additionally, it recorded an impressive **48.5%** success rate on the [BIRD-CRITIC-Flash](https://bird-critic.github.io/) benchmark, also establishing a new SOTA performance.   |
+| 2025-09 | The download count for the **XiYanSQL-QwenCoder** series models on [ModelScope](https://github.com/XGenerationLab/XiYanSQL-QwenCoder) has exceeded **100k** , making it the most influential SQL model in the field.                                                                                                                                                              |                                                    
+| 2025-05 | XiYanSQL-CRITIC algorithm achieves a **41%** Pass Rate score on the BIRD-CRITIC-Flash benchmark, setting a new SOTA performance.                                                                                                                                                                                                                                                  |
+| 2025-04 | We have released version **2504** of the **XiYanSQL-QwenCoder** series models, which features enhanced performance compared to the previous version. It still includes four different parameter sizes: 3B, 7B, 14B, and 32B. We encourage everyone to utilize these models.                                                                                                       |
+| 2025-02 | We have released the **XiYanSQL-QwenCoder** series model, which includes four different sizes: 3B, 7B, 14B, and 32B parameters, to meet the needs of different developers.                                                                                                                                                                                                        |
+|         | XiYanSQL-QwenCoder-32B has been released                                                                                                                                                                                                                                                                                                                                          |
+| 2025-01 | XiYanSQL-QwenCoder-32B achieves an EX score of 69.03% on BIRD test, new **SOTA** using only single fine-tuned model                                                                                                                                                                                                                                                               |
+| 2024-12 | Reaching the **top** of Bird leaderboard with an EX score of **75.63%** and R-VES of 71.41([new SOTA](https://bird-bench.github.io/))                                                                                                                                                                                                                                             |
+| 2024-11 | Proposing XiYanSQL technology **A Multi-Generator Ensemble Framework for Text-to-SQL**                                                                                                                                                                                                                                                                                            |
+|         | Achieving 41.20% on NL2GQL, and a competitive score of 72.23% on Bird dev ([bird](https://paperswithcode.com/sota/text-to-sql-on-bird-big-bench-for-large-scale))                                                                                                                                                                                                                 |
+|         | Achieving 89.65% on Spider test set ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-spider)), 69.86% on SQL-Eval ([new SOTA](https://paperswithcode.com/sota/text-to-sql-on-sql-eval-1))                                                                                                                                                                               |
+| 2024-10 | Proposing an SQL MoE model [MoMQ](https://github.com/XGenerationLab/MoMQ)                                                                                                                                                                                                                                                                                                         |
+| 2024-09 | Proposing DateSolver module                                                                                                                                                                                                                                                                                                                                                       |
+| 2024-05 | Proposing M-schema, involving ICL in SQL generation                                                                                                                                                                                                                                                                                                                               |
+|         | Achieving 86.98% on Spider test set (SOTA 86.6%)                                                                                                                                                                                                                                                                                                                                  |
+
 
 
 ## Application
