@@ -162,15 +162,15 @@ Yifu Liu, zhencang.lyf@alibaba-inc.com
 ## Citation
 If you find our work helpful, feel free to give us a cite.
 ```bibtex
-@article{XiYanSQL,
-      title={XiYan-SQL: A Novel Multi-Generator Framework For Text-to-SQL}, 
-      author={Yifu Liu and Yin Zhu and Yingqi Gao and Zhiling Luo and Xiaoxia Li and Xiaorong Shi and Yuntao Hong and Jinyang Gao and Yu Li and Bolin Ding and Jingren Zhou},
-      year={2025},
-      eprint={2507.04701},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.04701}, 
-}
+@ARTICLE{XiYanSQL,
+  author={Liu, Yifu and Zhu, Yin and Gao, Yingqi and Luo, Zhiling and Li, Xiaoxia and Shi, Xiaorong and Hong, Yuntao and Gao, Jinyang and Li, Yu and Ding, Bolin and Zhou, Jingren},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TKDE.2026.3657851}}
 ```
 ```bibtex
 @article{xiyansql_pre,
