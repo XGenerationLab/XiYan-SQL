@@ -63,6 +63,13 @@
 + `2024-12-12` 模型体验请访问：[ModelScope](https://www.modelscope.cn/studios/XGenerationLab/XiYanSQL-QwenCoder-32B)
 
 
+## 🚀 加入我们
+
+我们团队正在招聘 Deep Research、大模型后训练、AI Agent、NL2SQL方向的实习生和27届校招生。
+我们有扎实的技术积累，前沿的算法研发项目，鼓励学术研究与顶会发表。对大模型有热情的同学欢迎投递简历至**zhencang.lyf@alibaba-inc.com**。
+
+
+
 ## 简介
 XiYan-SQL是一个全新的基于LLM的Text-to-SQL框架。
 
